@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import AppBar from 'material-ui/AppBar'
-import { List, ListItem, ListItemText } from 'material-ui/List';
+import { List, ListItem } from 'material-ui/List';
 import RaisedButton from 'material-ui/RaisedButton'
 import "../../src/App.css"
 import axios from "axios"
@@ -112,11 +112,6 @@ export class Confirm extends Component {
                 </React.Fragment>
             </MuiThemeProvider>
         )
-    }
-}
-const styles = {
-    button: {
-        margin: 15
     }
 }
 

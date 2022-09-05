@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AppBar from 'material-ui/AppBar';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import DataTable from "react-data-table-component"
 import axios from './axios';
 import "../App.css"
 import {Modal, Button} from "react-bootstrap"
@@ -56,7 +55,7 @@ function Success(){
         })
     }, 3000);
       },[]);
-      console.log(form)
+
 
 
     // const columns = [
@@ -113,7 +112,7 @@ function Success(){
     const ModelContent = () => {
         return (
             <div className="Model">
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={showModel} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>
                         <div>
