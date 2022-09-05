@@ -1,4 +1,4 @@
-const axios = require('axios').default;
+import axios from 'axios'; 
 
 const instance = axios.create({
    baseURL: "http://localhost:6002"
