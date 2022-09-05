@@ -33,7 +33,7 @@ export class Confirm extends Component {
             bio: values.bio, 
             imageUrl: values.imageUrl}
         
-        axios.post('https://form-pi-blue.vercel.app', newForm)
+        axios.post('https://from-black.vercel.app/', newForm)
     }
     
 
