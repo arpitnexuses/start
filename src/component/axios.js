@@ -1,6 +1,6 @@
 import axios from 'axios'; 
 
 const instance = axios.create({
-   baseURL: "https://form-pi-blue.vercel.app/"
+   baseURL: "https://from-black.vercel.app/"
 }); 
 export default instance;
