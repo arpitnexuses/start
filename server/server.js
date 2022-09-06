@@ -10,6 +10,6 @@ app.use(express.json());
  mongoose.connect("mongodb+srv://formdata:nexuses@cluster0.sylo9tz.mongodb.net/formdata?retryWrites=true&w=majority")
 // require roots
 app.use("/", require("./routes/formRoute"))
-app.listen(3013, function(){
+app.listen("https://from-black.vercel.app", function(){
     console.log("express server listening on port 3013");
 })
